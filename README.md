@@ -13,6 +13,14 @@ function cnpm-sync
 end
 ```
 
+## Non-functions
+
+**NVM proxy**
+
+```fish
+set -x NVM_NODEJS_ORG_MIRROR https://npm.taobao.org/mirrors/node
+```
+
 ## License
 
 MIT &copy; [EGOIST](https://github.com/egoist)
